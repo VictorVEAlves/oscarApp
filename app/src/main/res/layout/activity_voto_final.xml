@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingTop="60dp"
+    android:paddingRight="20dp"
+    tools:context=".VotoFinalActivity">
+
+    <TextView
+        android:id="@+id/votoFilme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Filme: "
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/votoDiretor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Diretor: "
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/token"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:hint="Token"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnVotoFinal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Votar" />
+</LinearLayout>
